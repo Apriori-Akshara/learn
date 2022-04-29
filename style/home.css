@@ -307,8 +307,8 @@ overflow-x: scroll;
 }
 .item-f{
     
-     height:354px !important; 
-     width:290px; 
+     
+     width:95%; 
     padding:10px ;
     /* margin:50vmax; */
 }
@@ -334,4 +334,11 @@ overflow-x: scroll;
         width:100% !important;
        
     }
+    .item-f{
+        width:100%; 
+     
+   }
+   .a{
+       width:21rem !important;
+   }
 }
