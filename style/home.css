@@ -27,7 +27,7 @@
     display: inline-block !important;
 }
 .image-sticky{
-    background-image: url("//img1.wsimg.com/isteam/ip/2ad2e274-a4f3-4a49-a754-b2cc3670307b/IBC-2.png/:/fx-gs/rs=w:1534,m");
+    background-image: url("https://lh3.googleusercontent.com/g6WWfSMs3V0w2hhsaoc9myxQXmfO3IcRPwIsSo7nUJkNDHFb2JT4bffBiNH50_seojxYfC3AfBz8xNHd5k7tqXVsjRVvHGfJfAPx-zz8Lk7EQ0cPuA=v1-w960");
     background-repeat: no-repeat;
     background-size: cover;
     /* width:100%; */
@@ -61,13 +61,7 @@
      width: 13vmax !important;
      margin: auto !important;
   }
-  .memberImage{
-      background-image: url("https://img1.wsimg.com/isteam/ip/2ad2e274-a4f3-4a49-a754-b2cc3670307b/1.png/:/rs=w:600,cg:true,m");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:100%;
-  padding:170px 240px;
-  }
+ 
 .border-b{
     border-bottom: 5px solid yellow;
     width:100% !important;
@@ -175,12 +169,10 @@
 .foot svg{
 fill:black;
 }
-.hSet{
-    max-height: 400px;
-    min-height:360px;
-    max-width:450px;
-    min-width:300px;
-    margin-left: 5px !important;
+
+.w-size-set{
+    width:90% !important;
+   
 }
 @media (max-width:991px) {
     .hSet-b{
@@ -333,4 +325,13 @@ overflow-x: scroll;
 }
 .c{
     opacity: 0.6 !important;
+}
+
+
+
+@media (max-width:425px) {
+    .w-size-set{
+        width:100% !important;
+       
+    }
 }
