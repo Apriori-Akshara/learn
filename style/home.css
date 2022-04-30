@@ -318,10 +318,12 @@ overflow-x: scroll;
 .e{
     text-decoration: none !important;
     color:grey !important;
-    position: relative;
-    left:55px;
+    /* position: relative;
+    left:55px; */
     font-weight: 400;
     font-size: larger;
+    margin-left:0px;
+    margin-right:0px;
 }
 .c{
     opacity: 0.6 !important;
@@ -341,4 +343,9 @@ overflow-x: scroll;
    .a{
        width:21rem !important;
    }
+}
+@media (max-width:320px) {
+    .a{
+width:100% !important;
+    }
 }
