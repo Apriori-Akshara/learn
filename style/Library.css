@@ -1,0 +1,7 @@
+.shadow{
+    border: none;
+    outline: none;
+}
+.decorationNone{
+    text-decoration: none !important;
+}

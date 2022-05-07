@@ -1,0 +1,11 @@
+.set-Quizzes-height{
+    height: 300px;
+    max-width: 280px;
+    min-width: 200px;
+
+}
+@media (max-width:575px) {
+    .at575center{
+        margin: 0 auto;
+    }
+}

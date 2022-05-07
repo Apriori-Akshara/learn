@@ -1,0 +1,14 @@
+.design-event-card{
+    opacity: 0.7;
+    font-weight: 300;
+    font-size: small;
+    color: #1b1b1b;
+}
+@media (max-width:767px) {
+    .mtat767{
+        margin-top: 10px !important;
+    }
+    .at767center{
+        margin: 0 auto;
+    }
+}
