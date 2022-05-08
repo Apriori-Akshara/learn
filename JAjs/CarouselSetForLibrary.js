@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
+
+
+    $(' #devoConda .owl-carousel').owlCarousel({
 
         loop:true,
         margin:10,
@@ -12,7 +14,7 @@ $(document).ready(function(){
                 items:2
                 },
             375: {
-                items:2
+                items:3
                 },
             425: {
                 items:3
@@ -25,7 +27,39 @@ $(document).ready(function(){
             },
             
             1044:{
-                items:7
+                items:6
+            },
+           
+        }
+        
+    }),
+
+
+
+
+
+
+
+
+
+    $(' #client .owl-carousel').owlCarousel({
+
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+         
+            425: {
+                items:1
+                },
+            768:{
+                items:2
+            },
+            1044:{
+                items:3
             },
            
         }

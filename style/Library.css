@@ -5,3 +5,51 @@
 .decorationNone{
     text-decoration: none !important;
 }
+
+.bcWhite{
+    background-color:white;
+}
+.lere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+    height:127px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #1b1b1b;
+    background-color: #F8EF12;
+}
+.le{
+    width:5rem;
+    margin: auto;
+}
+.re{
+    width: 15rem;;
+}
+.t0 .libraryNone{
+    text-decoration: none ;
+    color:#1b1b1b;
+}
+
+.t0 .libraryNone:hover{
+    text-decoration: underline;
+    color:blue
+}
+.hw150_60{
+    width: 150px !important;
+    height: 60px !important;
+}
+
+
+@media (max-width:575px) {
+    .centerat575{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px !important;
+    }
+}
+.iconsFill{
+    background-color:#F8EF12 !important;
+}
