@@ -1,0 +1,93 @@
+
+
+.testimonials {
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    font-family: "Merriweather Light",serif;
+    background-color: white;
+    
+}
+.scroller {
+    overflow-x: hidden;
+    display: flex;
+    scroll-snap-type: none;
+}
+.item1 {
+    min-width: 100%;
+    scroll-snap-align: center;
+    /* background-color: #f9f4f2; */
+    margin-bottom: 10px;
+    padding: 0 50px;
+    font-family: "Merriweather Light",serif;
+}
+.item img {
+    background-color: #f9f4f2;
+    margin: 15px auto -60px;
+    width: 120px;
+    height: 120px;
+    border: solid 4px #ffffff;
+    border-radius: 60px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+.card1 {
+    background-color: rgb(237, 242, 247);
+    padding: 80px 40px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    background-color: #f9f4f2;
+    background: #f9f4f2;
+    border-radius: 30px;
+    padding: 30px 30px 40px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+.card1 p {
+    font-style: italic;
+    line-height: 1.6;
+    background-color: #f9f4f2;
+}
+.card1 span {
+    display: block;
+    margin-top: 20px;
+    color: teal;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    background-color: #f9f4f2;
+    text-transform: uppercase;
+}
+.testimonials .btn {
+    position: absolute;
+    top: 50%;
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: rgba(95, 106, 117, 0.3);
+    z-index: 1;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.testimonials .btn:hover{
+    background-color: rgba(249, 0, 0, 0.5);
+    cursor: pointer;
+}
+.testimonials .btn.next {
+    right: 15px;
+}
+.testimonials .btn.prev {
+    left: 15px;
+}
+@media screen and (max-width: 480px) {
+    .item {
+        padding: 0 30px;
+    }
+    .card {
+        padding: 80px 30px 30px;
+    }
+}
