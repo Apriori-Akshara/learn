@@ -17,10 +17,10 @@
     content: url(../Images/leaf.png);
 }
 .svg-fill svg{
-    fill:#3D5B59;
+    fill:#3D5B59 !important;
 }
 .svg-fill-i svg{
-    fill:#3D5B59;
+    fill:#3D5B59 !important;
 }
 .color-b ul li a{
     color:black !important;
