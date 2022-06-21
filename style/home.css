@@ -17,10 +17,10 @@
     content: url(../Images/leaf.png);
 }
 .svg-fill svg{
-    fill:#3D5B59 !important;
+    fill:#3D5B59;
 }
 .svg-fill-i svg{
-    fill:#3D5B59 !important;
+    fill:#3D5B59;
 }
 .color-b ul li a{
     color:black !important;
@@ -305,6 +305,10 @@ overflow-x: scroll;
 .lgNone{
     display: none !important;
 }
+.nav-item{
+    margin-left: 6px ;
+    margin-right: 6px;
+}
 .item-f{
     
      
@@ -363,3 +367,15 @@ body{
 .color-p-l ul li a{
     color: #FFFFFF !important;
 }
+
+
+@media screen { (min-width: 1154px)
+    #sociallogo1{
+        width: 20% !important;
+    }
+}
+
+
+
+
+
