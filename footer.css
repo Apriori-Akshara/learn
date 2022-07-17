@@ -28,3 +28,22 @@
         width: 250px !important;
     }
 }
+@media screen and (max-width:768px) {
+        #quizescard1{
+          position: relative;
+          left: -17% !important;
+        }
+        #quizescard2{
+           display: none;
+        }
+}
+@media screen and (max-width:575px) {
+    #quizescard1{
+       position: relative;
+       left: 3%;
+    }
+   
+    #quizescard2{
+        display: none;
+    }
+    }
