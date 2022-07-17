@@ -103,3 +103,27 @@
         margin-left: -4px !important;
     }
     }
+
+    @media screen and (max-width:701px) {
+        #booksearch6{
+            display: flex;
+        }
+        #booksearch7{
+            display: flex;
+        }
+        #booksearch8{
+            display: flex;
+        }
+        #booksearch9{
+            display: flex;
+        }
+        #booksearch10{
+            display: flex;
+        }
+        #booksearch11{
+            display: flex;
+        }
+        #booksearch12{
+            display: flex;
+        }
+      }
