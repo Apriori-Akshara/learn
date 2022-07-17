@@ -40,6 +40,7 @@
             width: 100%;
             position: relative;
             left: -30% !important;
+            
         }
         #createbtn{
             width: 170% !important;
@@ -55,8 +56,23 @@
         display: none;
     }
     }
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:552px) {
         #createbtn{
-            width: 250% !important;
+            width: 300% !important;
+        }
+        #clubtext1{
+            width: 100%;
+            position: relative;
+            left: -35% !important;
+            
+        }
+    }
+    @media screen and (max-width:447px) {
+      
+        #clubtext1{
+            width: 100%;
+            position: relative;
+            left: -45% !important;
+            
         }
     }
