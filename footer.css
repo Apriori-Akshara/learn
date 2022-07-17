@@ -1,0 +1,30 @@
+@media screen and (max-width: 1140px) {
+
+.footercombine{
+    display: flex;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+}
+.bi-check-circle-fill{
+    display: none !important;
+}
+.footicons{
+    position: relative;
+    left: -230px;
+}
+}
+@media screen and (max-width:577px) {
+
+    .upperfooter{
+        display: flex;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+    }
+    .footicons{
+        position: relative;
+        left: -150px;
+    }
+    .input-form{
+        width: 250px !important;
+    }
+}
