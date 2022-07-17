@@ -127,3 +127,11 @@
             display: flex;
         }
       }
+      @media screen and (max-width:937px) {
+      #contactusmap{
+        display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+
+      }
+      }
