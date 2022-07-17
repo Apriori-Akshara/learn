@@ -85,9 +85,17 @@
 }
 @media screen and (max-width: 480px) {
     .item {
-        padding: 0 30px;
+        
     }
     .card {
-        padding: 80px 30px 30px;
+        
+    }
+}
+@media screen and (max-width: 471px) {
+    .item {
+        width: 100% !important;
+    }
+    .card {
+        width: 100% !important;
     }
 }

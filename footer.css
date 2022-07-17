@@ -55,6 +55,10 @@
     #quizescard2{
         display: none;
     }
+
+#secondbookgroup{
+    display: none !important;
+}
     }
     @media screen and (max-width:552px) {
         #createbtn{
@@ -63,7 +67,7 @@
         #clubtext1{
             width: 100%;
             position: relative;
-            left: -35% !important;
+            left: -25% !important;
             
         }
     }
@@ -72,7 +76,7 @@
         #clubtext1{
             width: 100%;
             position: relative;
-            left: -45% !important;
+            left: -35% !important;
             
         }
     }
@@ -89,4 +93,13 @@
             margin: 10px;
             width: 150% !important;
         }
+    }
+    @media screen and (max-width:545px) {
+      #page1{
+        margin-bottom: 10px;
+
+      }
+    #page2{
+        margin-left: -4px !important;
+    }
     }
