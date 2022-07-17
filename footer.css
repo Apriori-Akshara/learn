@@ -36,6 +36,11 @@
         #quizescard2{
            display: none;
         }
+        #clubtext1{
+            width: 100%;
+            position: relative;
+            left: -30% !important;
+        }
 }
 @media screen and (max-width:575px) {
     #quizescard1{
