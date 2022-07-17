@@ -76,3 +76,17 @@
             
         }
     }
+    @media screen and (max-width:450px) {
+      
+        #clubdiscussionguide{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: relative;
+            left: -20px;;
+        }
+        #shelvebtn{
+            margin: 10px;
+            width: 150% !important;
+        }
+    }
